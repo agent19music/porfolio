@@ -1,3 +1,119 @@
-a{
+body{
+  background-color: #6148d7;
+}
+
+a {
   text-decoration: none;
+}
+
+
+a:hover{
+  color: gold;
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color:#10101a;
+  border-radius: 10px;
+}
+
+nav a {
+padding: 10px;
+color: antiquewhite;
+
+}
+
+.links{
+  margin-right: 10%;
+}
+#landingpage{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30%;
+  margin-left: 30%;
+  height: 100%;
+
+}
+
+#landingpage p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+
+}
+
+/* services */
+#services{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  margin: auto;
+
+}
+
+.tiles{
+  color: white;
+  padding: 7%;
+  border: 1px solid #10101a ;
+  border-radius: 20px;
+  width: 25%;
+  height: 33.3;
+}
+
+
+
+
+/* footer */
+.column1{
+color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5%;
+}
+.column1 a{
+  color: antiquewhite;
+}
+.column1 a:hover{
+color: gold;
+}
+
+#contactme{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#10101a;
+}
+
+.icons{
+  font-size: 80px;
+  color: antiquewhite;
+  padding: 5%;
+}
+
+.icons i{
+  color: antiquewhite;
+}
+i:hover{
+  color: gold;
+}
+
+body #contactme .icons #igtxt{
+  font-size: 22%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+#ghtxt{
+  font-size: 22%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
