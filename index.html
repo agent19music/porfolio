@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <title>My Website</title>
@@ -11,7 +11,7 @@
 <body>
   <nav>
     <div>
-      <img src="images/logo.png" alt="Logo" height="100px">
+     <a href="#services"><img id="logo" src="images/logo.png" alt="Logo" height="100px"></a>
     </div>
     <div class="links">
       <a href="">Home</a>
@@ -22,24 +22,35 @@
 <!-- <script src="script.js"></script> -->
 
 <div id="landingpage">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eius eaque velit mollitia vel dolorem, quaerat hic, dolorum consequatur adipisci similique a placeat distinctio sit incidunt reiciendis, magnam doloremque excepturi.</p>
+  <div id="greeting">
+    <h2>Hello, you !</h2>
+  </div>
+  <div id="aboutme">
+    <p>My name is Sean Nyandusi, an experienced web developer and tech enthusiast. Feel free to read through the services I offer and reach out for any queries !!</p>
 
-  <img src="images/me.png" alt="the dev" height="300px">
+  </div>
+  <div id="me">
+    <img src="images/me.png" alt="the dev" height="300px">
+  </div>
+  
 </div>
   
 <div id="services">
   <div class="tiles">
         <h2>Web Design</h2>
-        <p>I create tasteful,user-friendly and top notch websites. These Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iste nobis illo, earum veniam voluptate laborum facere esse voluptas eveniet? Sequi eligendi praesentium cupiditate incid</p>
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <p>I create tasteful,user-friendly and top notch websites. Whatever the user desires is what I deliver. Anything from e-commerce sites, video hosting sites or even sites on the onion router !Click the link to my git hub profile to view my works.</p>
   </div>
   <div class="tiles"> 
     <h2>Cybersecurity</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati numquam eaque nobis debitis asperiores ea reiciendis repellendus culpa alias, sunt dicta delectus! Dolorum iusto laboriosam cupiditate sed ab iure?</p>
+    <i class="fa fa-shield" aria-hidden="true"></i>
+    <p>Sean is also a cybersecurity analyst. I specialise in cybersecurity systems and this involves advicing establishments on necessary cybersecurity measures. Of course extending to overseeing the measures are put in place.</p>
     </div>
 
   <div class="tiles">
     <h2>Animation</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque pariatur eius recusandae, minima temporibus, asperiores alias ipsam blanditiis deserunt placeat unde ipsa dolorum molestiae necessitatibus numquam ad possimus vel? Molestiae?</p>
+    <i class="fa fa-cog" aria-hidden="true"></i>
+    <p>I have a deep love for japanese anime and manga. This propelled me to learn the animation art. I make short animated films but also small scale work like logo animations. Visit my instagram to view my animated reels!</p>
   </div>  
 
 </div>
@@ -60,6 +71,10 @@
     <h3 id="ghtxt">Github</h3>
     <a href="https://github.com/agent19music" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i></a>
   </div>
+  <!-- <div class="icons">
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    <h3>0745071299</h3>
+  </div> -->
 </footer>
 
 </body>
